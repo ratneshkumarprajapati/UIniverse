@@ -43,7 +43,7 @@ export function Team() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Meet Our Team</h2>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-            We're a small but passionate team of designers and developers dedicated to making design resources
+            We&apos;re a small but passionate team of designers and developers dedicated to making design resources
             accessible to everyone.
           </p>
         </div>

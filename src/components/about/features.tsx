@@ -41,7 +41,7 @@ export function Features() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Why Choose UI Resources Hub?</h2>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-            We've built the platform we always wished existed - comprehensive, reliable, and completely free.
+            We&apos;ve built the platform we always wished existed - comprehensive, reliable, and completely free.
           </p>
         </div>
 

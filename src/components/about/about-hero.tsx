@@ -24,7 +24,7 @@ export function AboutHero() {
           </h1>
 
           <p className="text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
-            We're on a mission to democratize access to high-quality design resources, making it easier for creators
+            We&apos;re on a mission to democratize access to high-quality design resources, making it easier for creators
             worldwide to build beautiful, functional, and accessible digital experiences.
           </p>
 

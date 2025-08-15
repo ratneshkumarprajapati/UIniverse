@@ -29,7 +29,7 @@ export function Mission() {
             </div>
             <h3 className="text-xl font-bold text-white mb-4">Our Values</h3>
             <p className="text-slate-400 leading-relaxed">
-              Quality over quantity, accessibility for all, community collaboration, and continuous innovation. We're
+              Quality over quantity, accessibility for all, community collaboration, and continuous innovation. We&apos;re
               committed to maintaining the highest standards while keeping everything free and open.
             </p>
           </div>

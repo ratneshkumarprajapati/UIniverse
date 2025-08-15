@@ -5,6 +5,11 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 const SPREADSHEET_ID = process.env.NEXT_PUBLIC_SPREADSHEET_ID;
 const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_SHEETS_API_KEY;
 
+// Define the expected Google Sheets API response type
+interface GoogleSheetsResponse {
+  values: string[][];
+}
+
 export const categoryApi = createApi({
   reducerPath: "categoryApi",
   baseQuery: fetchBaseQuery({
@@ -13,17 +18,17 @@ export const categoryApi = createApi({
   endpoints: (builder) => ({
     getCategory: builder.query<Categories[], void>({
       query: () => `${sheetName.category}?key=${API_KEY}`,
-      transformResponse: (response: any) => {
+      transformResponse: (response: GoogleSheetsResponse) => {
         // Assuming first row is header
         const rows = response.values;
         if (!rows || rows.length < 2) return [];
         
         return rows.slice(1).map((row: string[], idx: number) => ({
-          id: (row[0]), 
+          id: row[0],
           name: row[1] || "",
           description: row[2] || "",
           count: Number(row[3]) || 0,
-          icon: row[4] || "", 
+          icon: row[4] || "",
         }));
       },
     }),

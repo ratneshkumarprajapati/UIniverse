@@ -8,7 +8,7 @@ export function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Get in Touch</h2>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-            Have a question, suggestion, or want to contribute? We'd love to hear from you!
+            Have a question, suggestion, or want to contribute? We&apos;d love to hear from you!
           </p>
         </div>
 
