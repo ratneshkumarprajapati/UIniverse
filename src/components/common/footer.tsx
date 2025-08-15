@@ -13,7 +13,7 @@ export function Footer() {
                 <Code2 className="h-5 w-5 text-white" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-                UI Resources
+                UIniverse
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
@@ -26,25 +26,25 @@ export function Footer() {
             <h3 className="text-white font-semibold">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#resources" className="text-slate-400 hover:text-blue-400 transition-colors text-sm">
+                <Link href="/resources" className="text-slate-400 hover:text-blue-400 transition-colors text-sm">
                   Browse Resources
                 </Link>
               </li>
               <li>
-                <Link href="#categories" className="text-slate-400 hover:text-blue-400 transition-colors text-sm">
+                <Link href="/categories" className="text-slate-400 hover:text-blue-400 transition-colors text-sm">
                   Categories
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="text-slate-400 hover:text-blue-400 transition-colors text-sm">
+                <Link href="/about" className="text-slate-400 hover:text-blue-400 transition-colors text-sm">
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#submit" className="text-slate-400 hover:text-blue-400 transition-colors text-sm">
                   Submit Resource
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -80,7 +80,7 @@ export function Footer() {
             <h3 className="text-white font-semibold">Connect</h3>
             <div className="flex space-x-3">
               <Link
-                href="https://github.com"
+                href="https://github.com/ratneshkumarprajapati"
                 className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -88,7 +88,7 @@ export function Footer() {
                 <Github className="h-5 w-5" />
               </Link>
               <Link
-                href="https://twitter.com"
+                href="https://x.com/Ratnesh_Kumar_4"
                 className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -110,7 +110,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
-          <p className="text-slate-500 text-sm">© {new Date().getFullYear()} UI Resources Hub. All rights reserved.</p>
+          <p className="text-slate-500 text-sm">© {new Date().getFullYear()} UIniverse. All rights reserved.</p>
           <div className="flex items-center space-x-1 text-slate-500 text-sm">
             <span>Made with</span>
             <Heart className="h-4 w-4 text-red-500 fill-current" />

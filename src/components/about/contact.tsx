@@ -22,7 +22,7 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="text-white font-medium">Email</div>
-                  <div className="text-slate-400 text-sm">hello@uiresourceshub.com</div>
+                  <div className="text-slate-400 text-sm">hello@uiniverse.com</div>
                 </div>
               </div>
 
@@ -32,7 +32,7 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="text-white font-medium">GitHub</div>
-                  <div className="text-slate-400 text-sm">github.com/uiresourceshub</div>
+                  <div className="text-slate-400 text-sm">github.com/uiniverse</div>
                 </div>
               </div>
 

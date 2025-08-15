@@ -12,7 +12,7 @@ export function AboutHero() {
         <div className="space-y-8">
           <div className="inline-flex items-center space-x-2 bg-blue-600/20 text-blue-300 px-4 py-2 rounded-full text-sm font-medium border border-blue-500/30">
             <Sparkles className="h-4 w-4" />
-            <span>About UI Resources Hub</span>
+            <span>About UIniverse</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">

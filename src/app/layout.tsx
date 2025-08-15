@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "UI Resources Hub - Curated Design Resources",
+  title: "UIniverse - Curated Design Resources",
   description: "Discover the best design tools, fonts, color palettes, icons, and components for your next project.",
 }
 

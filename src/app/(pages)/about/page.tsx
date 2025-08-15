@@ -8,7 +8,7 @@ import { Team } from "@/components/about/team"
 import { Contact } from "@/components/about/contact"
 
 export const metadata = {
-  title: "About - UI Resources Hub",
+  title: "About - UIniverse",
   description: "Learn about our mission to curate the best design resources for developers and designers worldwide.",
 }
 
